@@ -1,6 +1,7 @@
 Tarea Num.3
-Dar funcionalidad al ejemplo de Calculadora.
 ========================
+Dar funcionalidad al ejemplo de Calculadora.
+------------
 
 Instrucciones Tarea 3
 ------------
@@ -57,6 +58,3 @@ Captura
     <tr>
     </table>
 </div>
-
-<br><br>
-<a href="http://www.miramicodigo.com" target="_blank">@Gusn8</a>
