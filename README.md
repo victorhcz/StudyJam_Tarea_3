@@ -37,7 +37,7 @@ Captura
 ---------
 <div align="center">
     <center>
-    <h3>Ejemplo Suma</h3>
+    <h3>Ejemplo Suma 2+3=5 </h3>
     <table>
     <tr>
         <td><img src="/img/calSuma01.png" width="300"></td>
@@ -48,7 +48,7 @@ Captura
     </center>
 </div>
 
-<h3> Prueba multiplicación </h3>
+<h3> Prueba multiplicación 123456789*2=246913578</h3>
 <div align="center">
     <table>
     <tr>
