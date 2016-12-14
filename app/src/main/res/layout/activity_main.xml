@@ -37,7 +37,9 @@
             android:paddingBottom="@dimen/main.tv.aba"
             android:background="@color/color.tv.bg.numeros"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="clickNumeros"
+            android:tag="1"/>
 
         <TextView
             android:id="@+id/tvIgual"
@@ -50,7 +52,8 @@
             android:paddingBottom="@dimen/main.tv.aba"
             android:background="@color/color.tv.bg.numeros"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:onClick="clickIgual"/>
 
     </LinearLayout>
 
@@ -66,7 +69,9 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
-        android:layout_above="@id/llCeros"/>
+        android:layout_above="@id/llCeros"
+        android:onClick="clickNumeros"
+        android:tag="1"/>
 
     <TextView
         android:id="@+id/tvDos"
@@ -81,7 +86,9 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_above="@id/llCeros"
-        android:layout_toRightOf="@id/tvUno"/>
+        android:layout_toRightOf="@id/tvUno"
+        android:onClick="clickNumeros"
+        android:tag="2"/>
 
     <TextView
         android:id="@+id/tvTres"
@@ -96,7 +103,9 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_above="@id/llCeros"
-        android:layout_toRightOf="@id/tvDos"/>
+        android:layout_toRightOf="@id/tvDos"
+        android:onClick="clickNumeros"
+        android:tag="3"/>
 
     <TextView
         android:id="@+id/tvCuatro"
@@ -110,7 +119,10 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
-        android:layout_above="@id/tvUno"/>
+        android:layout_above="@id/tvUno"
+        android:onClick="clickNumeros"
+        android:tag="4"/>
+
 
     <TextView
         android:id="@+id/tvCinco"
@@ -125,7 +137,10 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_toRightOf="@id/tvCuatro"
-        android:layout_above="@id/tvDos"/>
+        android:layout_above="@id/tvDos"
+        android:onClick="clickNumeros"
+        android:tag="5"/>
+
 
     <TextView
         android:id="@+id/tvSeis"
@@ -140,7 +155,9 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_toRightOf="@id/tvCinco"
-        android:layout_above="@id/tvTres"/>
+        android:layout_above="@id/tvTres"
+        android:onClick="clickNumeros"
+        android:tag="6"/>
 
     <TextView
         android:id="@+id/tvSiete"
@@ -154,7 +171,9 @@
         android:paddingLeft="@dimen/main.tv.izq"
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
-        android:layout_above="@id/tvCuatro"/>
+        android:layout_above="@id/tvCuatro"
+        android:onClick="clickNumeros"
+        android:tag="7"/>
 
     <TextView
         android:id="@+id/tvOcho"
@@ -169,7 +188,10 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_toRightOf="@id/tvSiete"
-        android:layout_above="@id/tvCinco"/>
+        android:layout_above="@id/tvCinco"
+        android:onClick="clickNumeros"
+        android:tag="8"/>
+
     <TextView
         android:id="@+id/tvNueve"
         android:layout_width="wrap_content"
@@ -183,7 +205,10 @@
         android:paddingRight="@dimen/main.tv.der"
         android:background="@color/color.tv.bg.numeros"
         android:layout_toRightOf="@id/tvOcho"
-        android:layout_above="@id/tvSeis"/>
+        android:layout_above="@id/tvSeis"
+        android:onClick="clickNumeros"
+        android:tag="9"/>
+
 
     <TextView
         android:id="@+id/tvResultado"
@@ -213,7 +238,8 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
-            android:background="@color/color.tv.bg.acciones" />
+            android:background="@color/color.tv.bg.acciones"
+            android:onClick="clickCE"/>
 
         <TextView
             android:id="@+id/tvDivision"
@@ -226,7 +252,8 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
-            android:background="@color/color.tv.bg.acciones" />
+            android:background="@color/color.tv.bg.acciones"
+            android:onClick="clickDivision"/>
         <TextView
             android:id="@+id/tvMultiplicacion"
             android:layout_width="match_parent"
@@ -238,7 +265,8 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
-            android:background="@color/color.tv.bg.acciones" />
+            android:background="@color/color.tv.bg.acciones"
+            android:onClick="clickMultiplica"/>
 
         <TextView
             android:id="@+id/tvResta"
@@ -251,7 +279,8 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
-            android:background="@color/color.tv.bg.acciones" />
+            android:background="@color/color.tv.bg.acciones"
+            android:onClick="clickResta"/>
 
         <TextView
             android:id="@+id/tvSuma"
@@ -264,7 +293,8 @@
             android:paddingRight="@dimen/main.tv.acc.der"
             android:gravity="center"
             android:layout_weight="1"
-            android:background="@color/color.tv.bg.acciones" />
+            android:background="@color/color.tv.bg.acciones"
+            android:onClick="clickSuma"/>
     </LinearLayout>
 
     <LinearLayout
