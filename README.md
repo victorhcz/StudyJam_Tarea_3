@@ -35,7 +35,6 @@ Dentro de Android Studio:
 
 Captura
 ---------
-
 <div align="center">
     <center>
     <h3>Ejemplo Suma</h3>
@@ -45,28 +44,19 @@ Captura
         <td><img src="/img/calSuma02.png" width="300"></td>
         <td><img src="/img/calSumaIgual.png" width="300"></td>
     <tr>
+    </table>
     </center>
 </div>
 
 <h3> Prueba multiplicación </h3>
 <div align="center">
-    <center>
-        <img src="/img/calNumeros.png" width="300">
-    </center>
+    <table>
+    <tr>
+        <td><img src="/img/calNumeros.png" width="300"></td>
+        <td><img src="/img/calEjemMultiIgual.png" width="300"></td>
+    <tr>
+    </table>
 </div>
-<div align="center">
-    <center>
-        <img src="/img/calEjemMultiIgual.png" width="300">
-    </center>
-</div>
-
-<h3> Prueba Suma </h3>
-<div align="center">
-    <center>
-        <img src="/img/calEjemMultiIgual.png" width="300">
-    </center>
-</div>
-
 
 <br><br>
 <a href="http://www.miramicodigo.com" target="_blank">@Gusn8</a>
